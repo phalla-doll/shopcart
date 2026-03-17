@@ -55,7 +55,7 @@ export default function HomeView({ onProductClick, onAddToCart }: HomeViewProps)
             <div key={product.id} className="group cursor-pointer" onClick={() => onProductClick(product)}>
               <div className="bg-[#f5f6f8] rounded-2xl relative aspect-square flex items-center justify-center mb-4 transition-transform group-hover:scale-[1.02] overflow-hidden">
                 <button 
-                  className="absolute top-4 right-4 bg-white p-2 rounded-full shadow-sm hover:text-red-500 transition-colors z-10"
+                  className="absolute top-4 right-4 bg-white p-2 rounded-full shadow-sm hover:text-red-500 transition-all z-10 opacity-0 group-hover:opacity-100"
                   onClick={(e) => {
                     e.stopPropagation();
                     // Toggle wishlist logic here
