@@ -79,6 +79,46 @@ export const products = [
     image: 'https://picsum.photos/seed/mpow/400/400',
     colors: ['#000', '#eee', '#fca5a5', '#bfdbfe']
   },
+  {
+    id: 9,
+    name: 'Sony WH-1000XM4',
+    price: 348.00,
+    description: 'Industry Leading Noise Canceling Overhead Headphones',
+    rating: 5,
+    reviews: 842,
+    image: 'https://picsum.photos/seed/sonywh/400/400',
+    colors: ['#000', '#eee', '#fca5a5', '#bfdbfe']
+  },
+  {
+    id: 10,
+    name: 'Sennheiser Momentum 3',
+    price: 399.00,
+    description: 'Wireless Noise Cancelling Headphones with Auto On/Off',
+    rating: 4,
+    reviews: 320,
+    image: 'https://picsum.photos/seed/sennheiser/400/400',
+    colors: ['#000', '#eee', '#fca5a5', '#bfdbfe']
+  },
+  {
+    id: 11,
+    name: 'Beats Studio3',
+    price: 349.95,
+    description: 'Wireless Noise Cancelling Over-Ear Headphones',
+    rating: 4,
+    reviews: 512,
+    image: 'https://picsum.photos/seed/beats/400/400',
+    colors: ['#000', '#eee', '#fca5a5', '#bfdbfe']
+  },
+  {
+    id: 12,
+    name: 'Jabra Elite 85h',
+    price: 249.99,
+    description: 'Wireless Noise-Canceling Headphones, Over Ear',
+    rating: 4,
+    reviews: 215,
+    image: 'https://picsum.photos/seed/jabra/400/400',
+    colors: ['#000', '#eee', '#fca5a5', '#bfdbfe']
+  },
 ];
 
 export const categories = [

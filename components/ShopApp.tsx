@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { products } from '@/lib/data';
 import Header from './Header';
+import Footer from './Footer';
 import HomeView from './HomeView';
 import ProductDetailView from './ProductDetailView';
 import CheckoutView from './CheckoutView';
@@ -43,10 +44,10 @@ export default function ShopApp() {
   };
 
   return (
-    <div className="min-h-screen bg-white text-slate-900 font-sans">
+    <div className="min-h-screen bg-white text-slate-900 font-sans flex flex-col">
       <Header cartCount={cart.reduce((acc, item) => acc + item.quantity, 0)} onNavigate={navigateTo} />
       
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-grow">
         {currentView === 'home' && (
           <HomeView onProductClick={(p) => navigateTo('detail', p)} onAddToCart={(p) => addToCart(p, 1, p.colors[0])} />
         )}
@@ -57,6 +58,8 @@ export default function ShopApp() {
           <CheckoutView cart={cart} onNavigate={navigateTo} />
         )}
       </main>
+      
+      <Footer />
     </div>
   );
 }
