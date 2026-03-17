@@ -7,7 +7,9 @@ export const products = [
     rating: 5,
     reviews: 121,
     image: 'https://picsum.photos/seed/earbuds1/400/400',
-    colors: ['#000', '#eee', '#fca5a5', '#bfdbfe']
+    colors: ['#000', '#eee', '#fca5a5', '#bfdbfe'],
+    brand: 'Generic',
+    category: 'Earbuds'
   },
   {
     id: 2,
@@ -17,7 +19,9 @@ export const products = [
     rating: 5,
     reviews: 121,
     image: 'https://picsum.photos/seed/airpodsmax/400/400',
-    colors: ['#000', '#eee', '#fca5a5', '#bfdbfe']
+    colors: ['#000', '#eee', '#fca5a5', '#bfdbfe'],
+    brand: 'Apple',
+    category: 'Over-Ear'
   },
   {
     id: 3,
@@ -27,7 +31,9 @@ export const products = [
     rating: 5,
     reviews: 121,
     image: 'https://picsum.photos/seed/bose/400/400',
-    colors: ['#000', '#eee', '#fca5a5', '#bfdbfe']
+    colors: ['#000', '#eee', '#fca5a5', '#bfdbfe'],
+    brand: 'Bose',
+    category: 'Earbuds'
   },
   {
     id: 4,
@@ -37,7 +43,9 @@ export const products = [
     rating: 5,
     reviews: 121,
     image: 'https://picsum.photos/seed/vivefox/400/400',
-    colors: ['#000', '#eee', '#fca5a5', '#bfdbfe']
+    colors: ['#000', '#eee', '#fca5a5', '#bfdbfe'],
+    brand: 'VIVEFOX',
+    category: 'Over-Ear'
   },
   {
     id: 5,
@@ -47,7 +55,9 @@ export const products = [
     rating: 5,
     reviews: 121,
     image: 'https://picsum.photos/seed/jbl/400/400',
-    colors: ['#000', '#eee', '#fca5a5', '#bfdbfe']
+    colors: ['#000', '#eee', '#fca5a5', '#bfdbfe'],
+    brand: 'JBL',
+    category: 'On-Ear'
   },
   {
     id: 6,
@@ -57,7 +67,9 @@ export const products = [
     rating: 5,
     reviews: 121,
     image: 'https://picsum.photos/seed/tagry/400/400',
-    colors: ['#000', '#eee', '#fca5a5', '#bfdbfe']
+    colors: ['#000', '#eee', '#fca5a5', '#bfdbfe'],
+    brand: 'TAGRY',
+    category: 'Earbuds'
   },
   {
     id: 7,
@@ -67,7 +79,9 @@ export const products = [
     rating: 5,
     reviews: 121,
     image: 'https://picsum.photos/seed/monster/400/400',
-    colors: ['#000', '#eee', '#fca5a5', '#bfdbfe']
+    colors: ['#000', '#eee', '#fca5a5', '#bfdbfe'],
+    brand: 'Monster',
+    category: 'Neckband'
   },
   {
     id: 8,
@@ -77,7 +91,9 @@ export const products = [
     rating: 5,
     reviews: 121,
     image: 'https://picsum.photos/seed/mpow/400/400',
-    colors: ['#000', '#eee', '#fca5a5', '#bfdbfe']
+    colors: ['#000', '#eee', '#fca5a5', '#bfdbfe'],
+    brand: 'Mpow',
+    category: 'Kids'
   },
   {
     id: 9,
@@ -87,7 +103,9 @@ export const products = [
     rating: 5,
     reviews: 842,
     image: 'https://picsum.photos/seed/sonywh/400/400',
-    colors: ['#000', '#eee', '#fca5a5', '#bfdbfe']
+    colors: ['#000', '#eee', '#fca5a5', '#bfdbfe'],
+    brand: 'Sony',
+    category: 'Over-Ear'
   },
   {
     id: 10,
@@ -97,7 +115,9 @@ export const products = [
     rating: 4,
     reviews: 320,
     image: 'https://picsum.photos/seed/sennheiser/400/400',
-    colors: ['#000', '#eee', '#fca5a5', '#bfdbfe']
+    colors: ['#000', '#eee', '#fca5a5', '#bfdbfe'],
+    brand: 'Sennheiser',
+    category: 'Over-Ear'
   },
   {
     id: 11,
@@ -107,7 +127,9 @@ export const products = [
     rating: 4,
     reviews: 512,
     image: 'https://picsum.photos/seed/beats/400/400',
-    colors: ['#000', '#eee', '#fca5a5', '#bfdbfe']
+    colors: ['#000', '#eee', '#fca5a5', '#bfdbfe'],
+    brand: 'Beats',
+    category: 'Over-Ear'
   },
   {
     id: 12,
@@ -117,8 +139,10 @@ export const products = [
     rating: 4,
     reviews: 215,
     image: 'https://picsum.photos/seed/jabra/400/400',
-    colors: ['#000', '#eee', '#fca5a5', '#bfdbfe']
-  },
+    colors: ['#000', '#eee', '#fca5a5', '#bfdbfe'],
+    brand: 'Jabra',
+    category: 'Over-Ear'
+  }
 ];
 
 export const categories = [
