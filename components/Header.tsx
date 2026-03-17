@@ -12,20 +12,22 @@ export default function Header({ cartCount, onNavigate }: HeaderProps) {
   return (
     <header className="w-full">
       {/* Top Bar */}
-      <div className="bg-[#003d29] text-white text-xs py-2 px-4 flex justify-between items-center max-w-7xl mx-auto rounded-t-none lg:rounded-t-md mt-0 lg:mt-2">
-        <div className="flex items-center gap-2">
-          <Phone className="w-3 h-3" />
-          <span>+001234567890</span>
-        </div>
-        <div className="hidden sm:block">
-          Get 50% Off on Selected Items | <span className="font-semibold cursor-pointer">Shop Now</span>
-        </div>
-        <div className="flex items-center gap-4">
-          <div className="flex items-center gap-1 cursor-pointer">
-            Eng <ChevronDown className="w-3 h-3" />
+      <div className="bg-[#003d29] text-white text-xs py-2">
+        <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
+          <div className="flex items-center gap-2">
+            <Phone className="w-3 h-3" />
+            <span>+001234567890</span>
           </div>
-          <div className="flex items-center gap-1 cursor-pointer">
-            Location <ChevronDown className="w-3 h-3" />
+          <div className="hidden sm:block">
+            Get 50% Off on Selected Items | <span className="font-semibold cursor-pointer">Shop Now</span>
+          </div>
+          <div className="flex items-center gap-4">
+            <div className="flex items-center gap-1 cursor-pointer">
+              Eng <ChevronDown className="w-3 h-3" />
+            </div>
+            <div className="flex items-center gap-1 cursor-pointer">
+              Location <ChevronDown className="w-3 h-3" />
+            </div>
           </div>
         </div>
       </div>
