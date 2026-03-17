@@ -53,7 +53,7 @@ export default function ProductDetailView({ product, onAddToCart, onNavigate }: 
         {/* Product Info */}
         <div className="space-y-8">
           <div>
-            <h1 className="text-3xl font-bold text-gray-900 mb-2">{product.name}</h1>
+            <h1 className="text-3xl font-medium text-gray-900 mb-2">{product.name}</h1>
             <p className="text-gray-500">{product.description}</p>
             <div className="flex items-center gap-1 mt-4">
               {[...Array(5)].map((_, i) => (
@@ -64,7 +64,7 @@ export default function ProductDetailView({ product, onAddToCart, onNavigate }: 
           </div>
 
           <div className="space-y-2">
-            <div className="text-3xl font-bold text-gray-900">${product.price.toFixed(2)}</div>
+            <div className="text-3xl font-medium text-gray-900">${product.price.toFixed(2)}</div>
             <p className="text-sm text-gray-500">Suggested payments with 6 months special financing</p>
           </div>
 
@@ -99,7 +99,7 @@ export default function ProductDetailView({ product, onAddToCart, onNavigate }: 
               </button>
             </div>
             <div className="text-sm text-orange-500 font-medium">
-              Only <span className="font-bold">12 items</span> Left!<br/>Don&apos;t miss it
+              Only <span className="font-medium">12 items</span> Left!<br/>Don&apos;t miss it
             </div>
           </div>
 

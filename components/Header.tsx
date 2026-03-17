@@ -19,7 +19,7 @@ export default function Header({ cartCount, onNavigate }: HeaderProps) {
             <span>+001234567890</span>
           </div>
           <div className="hidden sm:block">
-            Get 50% Off on Selected Items | <span className="font-semibold cursor-pointer">Shop Now</span>
+            Get 50% Off on Selected Items | <span className="font-medium cursor-pointer">Shop Now</span>
           </div>
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-1 cursor-pointer">
@@ -39,10 +39,10 @@ export default function Header({ cartCount, onNavigate }: HeaderProps) {
             className="flex items-center gap-2 cursor-pointer"
             onClick={() => onNavigate('home')}
           >
-            <div className="w-8 h-8 bg-[#003d29] text-white rounded-full flex items-center justify-center font-bold text-lg">
+            <div className="w-8 h-8 bg-[#003d29] text-white rounded-full flex items-center justify-center font-medium text-lg">
               S
             </div>
-            <span className="text-xl font-bold text-[#003d29]">Shopcart</span>
+            <span className="text-xl font-medium text-[#003d29]">Shopcart</span>
           </div>
 
           <nav className="hidden lg:flex items-center gap-6 font-medium text-sm">
@@ -76,7 +76,7 @@ export default function Header({ cartCount, onNavigate }: HeaderProps) {
               <ShoppingCart className="w-5 h-5" />
               <span className="hidden sm:block text-sm font-medium">Cart</span>
               {cartCount > 0 && (
-                <span className="absolute -top-2 -right-2 bg-red-500 text-white text-[10px] font-bold w-4 h-4 rounded-full flex items-center justify-center">
+                <span className="absolute -top-2 -right-2 bg-red-500 text-white text-[10px] font-medium w-4 h-4 rounded-full flex items-center justify-center">
                   {cartCount}
                 </span>
               )}

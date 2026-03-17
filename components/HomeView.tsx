@@ -16,7 +16,7 @@ export default function HomeView({ onProductClick, onAddToCart }: HomeViewProps)
       {/* Hero Section */}
       <section className="bg-[#fcf0e4] rounded-2xl p-8 md:p-16 flex flex-col md:flex-row items-center justify-between relative overflow-hidden min-h-[400px]">
         <div className="z-10 max-w-lg space-y-6 relative">
-          <h1 className="text-4xl md:text-6xl font-bold text-[#003d29] leading-tight">
+          <h1 className="text-4xl md:text-6xl font-medium text-[#003d29] leading-tight">
             Grab Upto 50% Off On Selected Headphone
           </h1>
           <button className="bg-[#003d29] text-white px-8 py-3 rounded-full font-medium hover:bg-[#002b1d] transition-colors">
@@ -49,7 +49,7 @@ export default function HomeView({ onProductClick, onAddToCart }: HomeViewProps)
 
       {/* Product Grid */}
       <section>
-        <h2 className="text-2xl font-bold mb-6">Headphones For You!</h2>
+        <h2 className="text-2xl font-medium mb-6">Headphones For You!</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {products.map((product) => (
             <div key={product.id} className="group cursor-pointer" onClick={() => onProductClick(product)}>
@@ -71,8 +71,8 @@ export default function HomeView({ onProductClick, onAddToCart }: HomeViewProps)
               </div>
               <div className="space-y-2">
                 <div className="flex justify-between items-start">
-                  <h3 className="font-bold text-lg text-gray-900">{product.name}</h3>
-                  <span className="font-bold text-lg">${product.price.toFixed(2)}</span>
+                  <h3 className="font-medium text-lg text-gray-900">{product.name}</h3>
+                  <span className="font-medium text-lg">${product.price.toFixed(2)}</span>
                 </div>
                 <p className="text-sm text-gray-500 line-clamp-1">{product.description}</p>
                 <div className="flex items-center gap-1">
