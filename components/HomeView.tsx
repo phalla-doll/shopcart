@@ -53,7 +53,7 @@ export default function HomeView({ onProductClick, onAddToCart }: HomeViewProps)
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {products.map((product) => (
             <div key={product.id} className="group cursor-pointer" onClick={() => onProductClick(product)}>
-              <div className="bg-[#f5f6f8] rounded-2xl relative aspect-square flex items-center justify-center mb-4 transition-transform group-hover:scale-[1.02] overflow-hidden">
+              <div className="bg-[#f5f6f8] rounded-2xl relative aspect-square flex items-center justify-center mb-4 overflow-hidden">
                 <button 
                   className="absolute top-4 right-4 bg-white p-2 rounded-full shadow-sm hover:text-red-500 transition-all z-10 opacity-0 group-hover:opacity-100"
                   onClick={(e) => {
@@ -66,7 +66,7 @@ export default function HomeView({ onProductClick, onAddToCart }: HomeViewProps)
                 <img 
                   src={product.image} 
                   alt={product.name} 
-                  className="w-full h-full object-cover mix-blend-multiply"
+                  className="w-full h-full object-cover mix-blend-multiply transition-transform duration-500 group-hover:scale-110"
                 />
               </div>
               <div className="space-y-2">
